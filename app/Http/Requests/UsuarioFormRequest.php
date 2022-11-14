@@ -27,7 +27,6 @@ class UsuarioFormRequest extends FormRequest
             'name' => 'required|string|max:255',
             'foto'=>'mimes:jpg,jpeg,bmp,png|max:10000',
             'email' => 'required|string|email|max:255|unique:users',
-            'max_descuento' => 'required|numeric|between:0,100',
             'tipo_usuario' => 'required|string|max:45'
         ];
     }

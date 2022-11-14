@@ -4,7 +4,7 @@ namespace sisVentasWeb\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UsuarioEditFormRequest extends FormRequest
+class ConfiguracionFormRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,10 +24,9 @@ class UsuarioEditFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|string|max:255',
-            'foto'=>'mimes:jpg,jpeg,bmp,png|max:10000',
-            'email' => 'required|string|email|max:255',
-            'tipo_usuario' => 'required|string|max:45'
+            'empresa' => 'required|string|max:45',
+            'zona_horaria' => 'required|string|max:45',
+            'moneda' => 'required|string|max:5'
         ];
     }
 }

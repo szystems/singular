@@ -10,7 +10,7 @@
 <html lang="es" class="no-js">
     <!-- Head -->
     <head>
-        <title>Clinicas El Valle</title>
+        <title>Singular BPO</title>
 
         <!-- Bootstrap 3.3.5 -->
     	<link rel="stylesheet" href="{{asset('css/bootstrap-select.min.css')}}">
@@ -19,13 +19,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="keywords" content="Bootstrap Theme, Freebies, Dashboard, MIT license">
-        <meta name="description" content="SZ-Ventas - Recuperar Contraseña">
-        <meta name="author" content="szystems.com">
+        <meta name="keywords" content="Singular">
+        <meta name="description" content="Singular BPO">
+        <meta name="author" content="www.szystems.com">
 		
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{{asset('favico.ico')}}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{asset('img/logos/favico.ico')}}" type="image/x-icon">
 
         <!-- Web Fonts -->
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -62,8 +62,8 @@
 		<header class="u-header">
             
 			<a class="u-header-logo" href="{{ route('login') }}">
-                    <img class="u-logo-desktop" src="{{asset('imagenes/logos/logolargo.png')}}" width="160" alt="Clinicas El Valle">
-                    <img class="img-fluid u-logo-mobile" src="{{asset('imagenes/logos/logosolo.png')}}" width="50" alt="Clinicas El Valle">
+                    <img class="u-logo-desktop" src="{{asset('img/logos/logolargo.png')}}" width="125" alt="Singular">
+                    <img class="img-fluid u-logo-mobile" src="{{asset('img/logos/logo.png')}}" width="50" alt="Singular">
                 </a>
 			</div>
             
@@ -103,21 +103,6 @@
 
                       <div class="dropdown-menu dropdown-menu-right border-0 py-0 mt-3" aria-labelledby="dropdownMenuLink" style="width: 260px;">
                         <div class="card">
-                                <div class="card-header py-3">
-                                    <!-- Storage -->
-                                    <!--<div class="d-flex align-items-center mb-3">
-                                        <span class="h6 text-muted text-uppercase mb-0">Licencia: {{ Auth::user()->licencia }}</span>
-
-                                        <div class="ml-auto text-muted">
-                                            <span class="h6 text-muted text-uppercase mb-0">Vence: {{ Auth::user()->fecha_vencimiento }}</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="progress" style="height: 4px;">
-                                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>-->
-                                    <!-- End Storage -->
-                                </div>
 
                                 <div class="card-body">
                                     <ul class="list-unstyled mb-0">
@@ -126,27 +111,16 @@
                                                 <span class="h3 mb-0"><i class="fas fa-store u-sidebar-nav-menu__item-icon"></i></span> Sitio Web
                                             </a>
                                         </li>
-										@if(Auth::user()->tipo_usuario != "Doctor")
                                         <li class="mb-4">
                                             <a class="d-flex align-items-center link-dark" href="{{URL::action('UsuarioController@show',Auth::user()->id)}}">
                                                 <span class="h3 mb-0"><i class="far fa-user-circle text-muted mr-3"></i></span> Perfil
                                             </a>
                                         </li>
-										@endif
-										@if(Auth::user()->tipo_usuario == "Doctor")
-                                        <li class="mb-4">
-                                            <a class="d-flex align-items-center link-dark" href="{{URL::action('DoctorController@show',Auth::user()->id)}}">
-                                                <span class="h3 mb-0"><i class="far fa-user-circle text-muted mr-3"></i></span> Perfil
-                                            </a>
-                                        </li>
-										@endif
-										@if(Auth::user()->menu_configuracion == "SI")
                                         <li class="mb-4">
                                             <a class="d-flex align-items-center link-dark" href="{{URL::action('ConfiguracionController@edit',Auth::user()->id)}}">
                                                 <span class="h3 mb-0"><i class="fas fa-cogs text-muted mr-3"></i></span> Configuración 
                                             </a>
                                         </li>
-										@endif
                                         <li>
                                             <a href="{{ url('/logout') }}" class="btn btn-default btn-flat">
                                                 <span class="h3 mb-0">
@@ -174,7 +148,7 @@
 				<div class="u-sidebar-inner">
 					<header class="u-sidebar-header">
 						<a class="u-sidebar-logo" href="">
-							<img class="img-fluid" src="{{asset('imagenes/logos/logolargo.png')}}" width="124" alt="SZ-Ventas">
+							<img class="img-fluid" src="{{asset('img/logos/logolargo.png')}}" width="124" alt="SZ-Ventas">
 						</a>
 					</header>
 
@@ -198,161 +172,6 @@
 								</a>
 							</li>
 
-							<!-- Pacientes 
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="{{url('pacientes\paciente')}}" >
-									<i class="fas fa-id-badge u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Pacientes</b></span>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-							</li>-->
-
-							<!-- Citas -->
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="{{url('pacientes\cita')}}" >
-									<i class="far fa-calendar-alt u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Citas</b></span>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-							</li>
-
-							<!-- Pacientes -->
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="#!"
-								   data-target="#subMenu6">
-								   <i class="fas fa-id-badge u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Pacientes</b></span>
-									<i class="fa fa-angle-right u-sidebar-nav-menu__item-arrow"></i>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-
-								<ul id="subMenu6" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
-									<!-- Components -->
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('pacientes\historiales')}}">
-											<span class="u-sidebar-nav-menu__item-icon">H</span>
-											<span class="u-sidebar-nav-menu__item-title">Historiales</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('pacientes\paciente')}}">
-											<span class="u-sidebar-nav-menu__item-icon">P</span>
-											<span class="u-sidebar-nav-menu__item-title">Pacientes</span>
-										</a>
-									</li>
-									
-									
-									
-								</ul>
-							</li>
-							<!-- Fin Pacientes -->
-
-							<!-- Farmacia y Rubros -->
-							
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="#!"
-								   data-target="#subMenu1">
-									<i class="fas fa-cubes u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Farmacia y Rubros</b></span>
-									<i class="fa fa-angle-right u-sidebar-nav-menu__item-arrow"></i>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-
-								<ul id="subMenu1" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
-
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('almacen\articulo')}}">
-											<span class="u-sidebar-nav-menu__item-icon">A</span>
-											<span class="u-sidebar-nav-menu__item-title">Articulos</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('almacen\categoria')}}">
-											<span class="u-sidebar-nav-menu__item-icon">C</span>
-											<span class="u-sidebar-nav-menu__item-title">Categorías</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('almacen\presentacion')}}">
-											<span class="u-sidebar-nav-menu__item-icon">P</span>
-											<span class="u-sidebar-nav-menu__item-title">Presentaciones</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('ventas\rubro')}}">
-											<span class="u-sidebar-nav-menu__item-icon">R</span>
-											<span class="u-sidebar-nav-menu__item-title">Rubros</span>
-										</a>
-									</li>
-									
-								</ul>
-							</li>
-							
-							<!-- Fin Farmacia y Rubros -->
-
-							<!-- Compras -->
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="#!"
-								   data-target="#subMenu2">
-									<i class="fas fa-cart-arrow-down u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Compras</b></span>
-									<i class="fa fa-angle-right u-sidebar-nav-menu__item-arrow"></i>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-
-								<ul id="subMenu2" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
-									<!-- Components -->
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('compras\ingreso')}}">
-											<span class="u-sidebar-nav-menu__item-icon">I</span>
-											<span class="u-sidebar-nav-menu__item-title">Ingresos</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('compras\proveedor')}}">
-											<span class="u-sidebar-nav-menu__item-icon">P</span>
-											<span class="u-sidebar-nav-menu__item-title">Proveedores</span>
-										</a>
-									</li>
-									
-									
-								</ul>
-							</li>
-							<!-- Fin Compras -->
-							
-							<!-- Ventas -->
-							<li class="u-sidebar-nav-menu__item">
-								<a class="u-sidebar-nav-menu__link" href="#!"
-								   data-target="#subMenu3">
-									<i class="far fa-handshake u-sidebar-nav-menu__item-icon"></i>
-									<span class="u-sidebar-nav-menu__item-title"><b>Ventas</b></span>
-									<i class="fa fa-angle-right u-sidebar-nav-menu__item-arrow"></i>
-									<span class="u-sidebar-nav-menu__indicator"></span>
-								</a>
-
-								<ul id="subMenu3" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
-								<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('ventas\inventario')}}">
-											<span class="u-sidebar-nav-menu__item-icon">I</span>
-											<span class="u-sidebar-nav-menu__item-title">Inventario</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('ventas\orden')}}">
-											<span class="u-sidebar-nav-menu__item-icon">O</span>
-											<span class="u-sidebar-nav-menu__item-title">Ordenes</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('ventas\venta')}}">
-											<span class="u-sidebar-nav-menu__item-icon">V</span>
-											<span class="u-sidebar-nav-menu__item-title">Ventas</span>
-										</a>
-									</li>
-								</ul>
-							</li>
-							<!-- Ventas -->
-
 							<!-- Acceso -->
 							
 							<li class="u-sidebar-nav-menu__item">
@@ -370,12 +189,6 @@
 										<a class="u-sidebar-nav-menu__link" href="{{url('reportes\bitacora')}}">
 											<span class="u-sidebar-nav-menu__item-icon">B</span>
 											<span class="u-sidebar-nav-menu__item-title">Bitácora</span>
-										</a>
-									</li>
-									<li class="u-sidebar-nav-menu__item">
-										<a class="u-sidebar-nav-menu__link" href="{{url('seguridad\doctor')}}">
-											<span class="u-sidebar-nav-menu__item-icon">D</span>
-											<span class="u-sidebar-nav-menu__item-title">Doctores</span>
 										</a>
 									</li>
 									<li class="u-sidebar-nav-menu__item">

@@ -17,7 +17,7 @@
                     <a href="http://wpp-redirect.herokuapp.com/go/?p=50242153288&m=" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-whatsapp u-sidebar-nav-menu__item-icon"></i>Whatsapp</a>
                     <a href="tel:+50232056298" target="_blank" class="list-group-item list-group-item-action"><i class="	fas fa-mobile-alt u-sidebar-nav-menu__item-icon"></i>Telefono Movil (502 4215-3288)</a>
                   </div>
-                <a href="https://szystems.com/"><img src="img/Szystems.png" alt="Szystems" class="img-fluid img-thumbnail" target="_blank"></a>
+                <a href="https://szystems.com/"><img src="img/szystems.png" alt="Szystems" class="img-fluid img-thumbnail" target="_blank"></a>
 			</div>
             <footer class="card-footer">
                  

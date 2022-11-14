@@ -1,3 +1,14 @@
+<?php 
+    if (Auth::user() != null) {
+        $user = Auth::user(); 
+
+        if ($user->idempresa == 0)
+        {
+        DB::update('update users set idempresa = '.$user->id.' where email = ?', [$user->email]);
+        }
+        
+	}
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -26,11 +37,63 @@
 <link type="text/css" rel="stylesheet" href="{{asset('singulartemplate/html/css/owl-carousel.css?ver=3')}}" />
 <link type="text/css" rel="stylesheet" href="{{asset('singulartemplate/html/css/style.css?ver=3')}}" />
 <!--[if lt IE 9]> <script src="{{asset('singulartemplate/html/js/modernizr.custom.js?ver=3')}}"></script> <![endif]-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- /Styles -->
+<style>
+	.button {
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+	
+	.button1 {
+	  background-color: transparent; 
+	  color: rgb(255, 255, 255); 
+	  border: 2px solid white;
+	}
+	
+	.button1:hover {
+	  background-color: transparent;
+	  color: #987750;
+	  border: 2px solid #987750;
+	}
+
+	.button2 {
+	  background-color: transparent; 
+	  color: rgb(0, 0, 0); 
+	  border: transparent;
+	}
+	
+	.button2:hover {
+	  background-color: transparent;
+	  color: #987750;
+	  border: transparent;
+	}
+
+	.button3 {
+	  background-color: transparent; 
+	  color: rgb(0, 0, 0); 
+	  border: 2px solid rgb(0, 0, 0);
+	}
+	
+	.button3:hover {
+	  background-color: transparent;
+	  color: #987750;
+	  border: 2px solid #987750;
+	}
+	
+</style>
 
 </head>
 
-<body>
+<body class="light">
 
 
 <!-- Wrapper All -->
@@ -108,6 +171,17 @@
 			</a>
 			<!-- /Menu Triggger -->
 
+			<!-- Menu Triggger -->
+			<a href="#" class="menu_trigger">
+				<span class="text">Menu</span>
+				<span class="hamb">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</a>
+			<!-- /Menu Triggger -->
+
 			<!-- Panel Content -->
 			<div class="right_in">
 				<div class="right_top">
@@ -155,14 +229,36 @@
 			<nav id="nav">
 				<h3 class="label">Menu</h3>
 				<ul>
-					<li><a href="#home">Inicio</a></li>
-					<li><a href="#about">Sobre Nosotros</a></li>
-                    <li><a href="#servicios">¿Qué hacemos?</a></li>
-					<li><a href="#portfolio">Proyectos</a></li>
-					<li><a href="#equipo">Equipo</a></li>
+					<li><a href="{{ url('/') }}">Inicio</a></li>
+					<li><a href="{{ url('/#about') }}">Sobre Nosotros</a></li>
+                    <li><a href="{{ url('/#servicios') }}">¿Qué hacemos?</a></li>
+					<li><a href="{{ url('/#portfolio') }}">Proyectos</a></li>
+					<li><a href="{{ url('/#equipo') }}">Equipo</a></li>
 					{{-- <li><a href="#customers">Customers</a></li>
 					<li><a href="#news">News &amp; Tips</a></li> --}}
-					<li><a href="#contact">Contacto</a></li>
+					<li><a href="{{ url('/#contact') }}">Contacto</a></li>
+					<br>
+					
+					{{-- Usuario --}}
+					@if (Auth::guest())
+						<li><h2><u>Usuarios</u></h2></li>
+						<li><a href="{{ route('login') }}"> Login</a></li>
+						<!--<li><a class="dropdown-item" href="{{ route('register') }}">Registrarse</a></li>-->
+						<li><a href="{{ route('password.request') }}">Olvidaste tu Contraseña?</a></li>
+					@else
+						<?php
+							$usuario = Auth::user()->name; $nombre = explode(' ',trim($usuario));
+						?>
+							<li><h2><u>Hola {{ ucwords($nombre[0]) }}!</u></h2></li>
+							<li><a href="{{URL::action('UsuarioController@show',Auth::user()->id)}}">Perfil</a></li>
+							<li><a href="{{ url('/panel') }}">Panel</a></li>
+						@if(Auth::user()->menu_configuracion == "SI")
+						<li><a href="{{URL::action('ConfiguracionController@edit',Auth::user()->id)}}">Configuración</a></li>
+						@endif
+						<li><a href="{{ url('/logout') }}">Cerrar Sesion</a></li>
+					@endif
+					{{-- Fin Usuario --}}
+
 				</ul>
 			</nav>
 			

@@ -65,7 +65,6 @@ class UsuarioController extends Controller
         $usuario->idempresa=Auth::user()->idempresa;
         $usuario->zona_horaria=Auth::user()->zona_horaria;
         $usuario->moneda=Auth::user()->moneda;
-        $usuario->max_descuento=$request->get('max_descuento');
         $usuario->logo=Auth::user()->logo;
         $usuario->principal='NO';
         if (input::hasfile('foto')){
@@ -124,7 +123,6 @@ class UsuarioController extends Controller
             $usuario->contacto_emergencia=$request->get('contacto_emergencia');
             $usuario->telefono_emergencia=$request->get('telefono_emergencia');
             $usuario->tipo_usuario=$request->get('tipo_usuario');
-            $usuario->max_descuento=$request->get('max_descuento');
             if (input::hasfile('foto')){
                 $permitted_chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
                 $generar_codigo_imagen = substr(str_shuffle($permitted_chars), 0, 5);

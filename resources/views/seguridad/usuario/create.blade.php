@@ -8,7 +8,7 @@
 <div class="col-md-6 mb-4">
       <div class="card">
             <header class="card-header">
-                  <h2 class="h3 card-header-title"><strong>Crear Administrador </strong></h2>
+                  <h2 class="h3 card-header-title"><strong>Crear Usuario </strong></h2>
             </header>
 
             <div class="card-body">
@@ -102,18 +102,6 @@
                               </span>
                         @endif
                   </div>
-                  <div class="form-group{{ $errors->has('max_descuento') ? ' has-error' : '' }}">
-                        <label for="max_descuento"><font color="orange">*</font>Porcentaje Maximo de Descuento</label>
-                        <i class="fas fa-percent"></i>
-                        <input type="number" name="max_descuento" class="form-control" id="max_descuento" placeholder="Maximo de descuento"  value="{{ old('max_descuento') }}" onkeypress="return validarentero(event,this.value)">
-                        @if ($errors->has('max_descuento'))
-                              <span class="help-block">
-                                    <strong>
-                                          {{ $errors->first('max_descuento') }}
-                                    </strong>
-                              </span>
-                        @endif
-                  </div>
                   <div class="form-group">
                         <label for="foto">Imagen</label>
                         <input type="file" name="foto" value="{{old('foto')}}">
@@ -124,7 +112,7 @@
                         <label for="name"><font color="orange">*</font>Tipo de Usuario</label>
                         <select id="tipo_usuario" type="text" class="form-control" name="tipo_usuario" value="{{ old('tipo_usuario') }}">
                               <option selected="selected" value="Administrador">Administrador</option>  
-                              <option value="Asistente">Asistente</option> 
+                              <option value="Trabajador">Trabajador</option> 
                         </select>
                         @if ($errors->has('tipo_usuario'))
                               <span class="help-block">

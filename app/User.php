@@ -29,10 +29,8 @@ class User extends Authenticatable
         'telefono_emergencia',
         'tipo_usuario',
         'especialidad',
-        'no_colegiado',
         'zona_horaria', 
         'moneda',
-        'max_descuento',
         'principal',
         
         

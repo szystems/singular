@@ -119,25 +119,13 @@
                                <img src="{{asset('imagenes/usuarios/'.$usuario->foto)}}" height="300px" >
                         @endif
                   </div>
-                  <div class="form-group{{ $errors->has('max_descuento') ? ' has-error' : '' }}">
-                        <label for="max_descuento"><font color="orange">*</font>Porcentaje Máximo de Descuento</label>
-                        <i class="fas fa-percent"></i>
-                        <input type="number" name="max_descuento" class="form-control" id="max_descuento" value="{{$usuario->max_descuento}}" onkeypress="return validarentero(event,this.value)">
-                        @if ($errors->has('max_descuento'))
-                              <span class="help-block">
-                                    <strong>
-                                          {{ $errors->first('max_descuento') }}
-                                    </strong>
-                              </span>
-                        @endif
-                  </div>
                   <h3><strong><u>Accesos: </u></strong></h3>
                   <div class="form-group{{ $errors->has('tipo_usuario') ? ' has-error' : '' }}">
                         <label for="name"><font color="orange">*</font>Tipo de Usuario</label>
                         <select id="tipo_usuario" type="text" class="form-control" name="tipo_usuario" value="{{$usuario->tipo_usuario}}">
                             <option selected="selected" value="{{$usuario->tipo_usuario}}">{{$usuario->tipo_usuario}}</option> 
                             <option value="Administrador">Administrador</option>
-                            <option value="Asistente">Asistente</option>   
+                            <option value="Trabajador">Trabajador</option>   
                         </select>
                         @if ($errors->has('tipo_usuario'))
                               <span class="help-block">

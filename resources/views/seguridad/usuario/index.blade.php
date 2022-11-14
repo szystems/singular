@@ -118,7 +118,7 @@
 									@if ($usu->foto != null)
 										<img class="u-avatar--sm rounded-circle mr-3" src="{{asset('imagenes/usuarios/'.$usu->foto)}}">
 									@else
-										<img class="u-avatar--sm rounded-circle mr-3" src="{{asset('imagenes/noimage.png')}}">
+										<img class="u-avatar--sm rounded-circle mr-3" src="{{asset('img/noimage.png')}}">
 									@endif
 									{{ $usu->name}}
 								</h5>

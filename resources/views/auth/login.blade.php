@@ -1,90 +1,64 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="cart-table-area section-padding-100">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-12">
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="roww resumo_fn_contact">
 
-                <main class="container-fluid w-100" role="main">
-                    <div class="row">
-                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-white mnh-100vh">
-                            
+            <!-- Main Title -->
+            <div class="resumo_fn_main_title">
+                <h3 class="subtitle">Login</h3>
+                <h3 class="title">Entra a tu cuenta</h3>
+                <p class="desc">Escribe tu email de usuario y contraseña</p>
+            </div>
+            <!-- /Main Title -->
 
-                            <div class="u-login-form">
-                                <form class="mb-6" method="POST" action="{{ route('login') }}">
-                                    {{ csrf_field() }}
-                                    <div class="mb-6">
-                                        <br>
-                                        <h1 class="h2">Bienvenido!!</h1>
-                                        <p class="small">Entra a tu cuenta.</p>
-                                    </div>
+            <!-- Contact Form -->
+            <form class="contact_form"  method="POST" action="{{ route('login') }}">
+                
+                {{ csrf_field() }}
 
-                                    <div class="form-group mb-6{{ $errors->has('email') ? ' has-error' : '' }}">
-                                        <label for="email">Tu email</label>
-                                        <input id="email" class="form-control" name="email" type="email" placeholder="juan@example.com" value="{{ old('email') }}" required autofocus>
+                <div class="items_wrap">
+                    <div class="items">
+                        <div class="item half">
+                            <div class="form-group mb-6{{ $errors->has('email') ? ' has-error' : '' }}">
+                                <label for="email">Tu email</label>
+                                <input id="email" class="form-control" name="email" type="email" placeholder="juan@example.com" value="{{ old('email') }}" required autofocus>
 
-                                        @if ($errors->has('email'))
-                                            <span class="help-block">
-                                                <strong>{{ $errors->first('email') }}</strong>
-                                            </span>
-                                        @endif
-                                    </div>
-
-                                    <div class="form-group mb-6{{ $errors->has('password') ? ' has-error' : '' }}">
-                                        <label for="password">Password</label>
-                                        <input id="password" class="form-control" name="password" type="password" placeholder="tu password" required>
-
-                                        @if ($errors->has('password'))
-                                            <span class="help-block">
-                                                <strong>{{ $errors->first('password') }}</strong>
-                                            </span>
-                                        @endif
-                                    </div>
-
-                                   <div class="form-group mb-6{{ $errors->has('password') ? ' has-error' : '' }}">
-                                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Recordarme
-
-                                        
-                                    </div>
-                                    <a class="link-muted small" href="{{ route('password.request') }}">Olvidaste tu Contraseña?</a>
-                                    <button class="btn btn-info btn-block" type="submit"><i class=""></i> Login</button>
-                                </form>
-
-                                <!--<p class="small">
-                                    No tienes Cuenta? <a href="{{ route('register') }}">Registrate aqui</a>
-                                    <i class="far fa-question-circle mr-1"></i><br>
-                                    Si no puedes entrar a tu cuenta <a href="#">contactanos</a>.
-                                </p>-->
-                            </div>
-
-                            <div class="u-login-form text-muted py-3 mt-auto">
-                                
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
                             </div>
                         </div>
+                        <div class="item half">
+                            <div class="form-group mb-6{{ $errors->has('password') ? ' has-error' : '' }}">
+                                <label for="password">Password</label>
+                                <input id="password" class="form-control" name="password" type="password" placeholder="tu password" required>
 
-                        <div class="col-lg-6 d-none d-lg-flex flex-column align-items-center justify-content-center bg-light">
-                            <img class="img-fluid position-relative u-z-index-3 mx-5" src="{{asset('assets/svg/mockups/mockup.svg')}}" alt="Image description">
-
-                            <figure class="u-shape u-shape--top-right u-shape--position-5">
-                                <img src="{{asset('assets/svg/shapes/shape-1.svg')}}" alt="Image description">
-                            </figure>
-                            <figure class="u-shape u-shape--center-left u-shape--position-6">
-                                <img src="{{asset('assets/svg/shapes/shape-2.svg')}}" alt="Image description">
-                            </figure>
-                            <figure class="u-shape u-shape--center-right u-shape--position-7">
-                                <img src="{{asset('assets/svg/shapes/shape-3.svg')}}" alt="Image description">
-                            </figure>
-                            <figure class="u-shape u-shape--bottom-left u-shape--position-8">
-                                <img src="{{asset('assets/svg/shapes/shape-4.svg')}}" alt="Image description">
-                            </figure>
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <button class="button button3" type="submit"><i class="fa fa-check"></i> Entrar</button>
+                            
                         </div>
                     </div>
-                </main>
+                </div>
+            </form>
+            <button class="button button2" onclick="window.location.href='{{ route('password.request') }}';">Olvidaste tu contraseña?</button>
+            
+            <!-- /Contact Form -->
 
-            </div>
         </div>
     </div>
-</div>
+</section>
+<!-- /Contact Section -->
     
 @endsection
