@@ -283,14 +283,283 @@
                         <a href="#" class="prev"><span></span></a>
                         <a href="#" class="next"><span></span></a>
                     </div>
-                    <h3 class="subtitle">Proyectos</h3>
-                    <h3 class="title">+40 Marcas y organizaciones
+                    {{-- <h3 class="subtitle">Proyectos</h3> --}}
+                    <h3 class="title">+40 Organizaciones y marcas
                         confian en nuestro trabajo</h3>
                 </div>
                 <!-- /Main Title -->
             </div>
         </div>
 
+        <div class="container noright">
+            <div class="roww">
+
+                <div class="owl-carousel modal_items" data-from="portfolio" data-count="5">
+                    <div class="item" data-index="1">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/AA.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/AA.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Abarroterías Albamar</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="2">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/ach.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ach.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Acción Contra el Hambre</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="3">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/asedechi.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/asedechi.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>ASEDECHI</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="4">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/COMFORT.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/COMFORT.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Comfort Dreams</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="5">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/CRS.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/CRS.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Catholic Relief Services</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="6">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/dinamica.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/dinamica.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Dinamica</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="7">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/doc.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/doc.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Pan Don Chabelo</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="8">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/eco.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/eco.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>>Asociación ECO</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="9">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/floresta.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/floresta.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Parque Floresta</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="10">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/grupoCR.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/grupoCR.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>CR Grupo</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="11">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/HGA.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/HGA.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Helvetas</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="12">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/Mayalatex.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Mayalatex.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Mayalatex</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="13">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/MM.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/MM.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Mas y Mas</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="14">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/muni.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/muni.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Municipalidad de Quetzaltenango</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="15">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/OXFAM.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/OXFAM.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>OXFAM</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="16">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/ppd.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ppd.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>PPD DR-CAFTA</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item " data-index="17">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/ROTARY.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ROTARY.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Club Rotario</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="18">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/SAN.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/SAN.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>SAN</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="19">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/sinai.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/sinai.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Colegio Sinai</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="20">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/Special.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Special.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Special Home</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="21">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/TGT.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/TGT.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>Traeguate</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="item" data-index="22">
+                        <div class="img_holder">
+                            <img src="{{asset('img/empresas/WE.png')}}" alt="">
+                            <div class="abs_img" data-bg-img="{{asset('img/empresas/WE.png')}}"></div>
+                        </div>
+                        <div class="title_holder" align="center">
+                            {{-- <p>illustration, design</p> --}}
+                            <h3>We Effect</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <div class="roww">
+                <!-- Main Title -->
+                <div class="resumo_fn_main_title">
+                    <div class="my__nav">
+                        <a href="#" class="prev"><span></span></a>
+                        <a href="#" class="next"><span></span></a>
+                    </div>
+                    <br><br><br>
+                    {{-- <h3 class="subtitle">Proyectos</h3> --}}
+                    <h3 class="title">Proyectos</h3>
+                </div>
+                <!-- /Main Title -->
+            </div>
+        </div>
+
+        {{-- Proyectos --}}
         <div class="container noright">
             <div class="roww">
 
@@ -469,960 +738,6 @@
                             <div class="img_holder">
                                 <img src="{{asset('img/empresas/COMFORT.png')}}" alt="">
                             <div class="abs_img" data-bg-img="{{asset('img/empresas/COMFORT.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="5">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/CRS.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/CRS.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Catholic Relief Services</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Catholic Relief Services</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/CRS.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/CRS.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="6">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/dinamica.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/dinamica.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Dinamica</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Dinamica</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/dinamica.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/dinamica.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="7">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/doc.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/doc.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Pan Don Chabelo</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Pan Don Chabelo</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/doc.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/doc.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="8">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/eco.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/eco.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Asociación ECO</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Asociación ECO</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/eco.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/eco.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="9">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/floresta.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/floresta.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Parque Floresta</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Parque Floresta</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/floresta.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/floresta.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="10">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/grupoCR.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/grupoCR.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">CR Grupo</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">CR Grupo</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/grupoCR.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/grupoCR.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="11">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/HGA.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/HGA.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Helvetas</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Helvetas</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/HGA.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/HGA.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="12">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/Mayalatex.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Mayalatex.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Mayalatex</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Mayalatex</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/Mayalatex.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Mayalatex.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="13">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/MM.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/MM.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Mas y Mas</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Mas y Mas</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/MM.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/MM.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="14">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/muni.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/muni.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Municipalidad de Quetzaltenango</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Municipalidad de Quetzaltenango</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/muni.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/muni.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="15">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/OXFAM.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/OXFAM.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">OXFAM</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">OXFAM</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/OXFAM.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/OXFAM.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="16">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/ppd.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ppd.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">PPD DR-CAFTA</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">PPD DR-CAFTA</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/ppd.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ppd.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="17">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/ROTARY.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ROTARY.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Club Rotario</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Club Rotario</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/ROTARY.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/ROTARY.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="18">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/SAN.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/SAN.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">SAN</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">SAN</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/SAN.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/SAN.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="19">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/sinai.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/sinai.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Colegio Sinai</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Colegio Sinai</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/sinai.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/sinai.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="20">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/Special.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Special.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Special Home</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Special Home</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/Special.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/Special.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="21">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/TGT.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/TGT.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">Traeguate</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">Traeguate</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/TGT.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/TGT.png')}}"></div>
-                            </div>
-                            <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
-                                malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu
-                                ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam
-                                sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis
-                                vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc
-                                consectetur efficitur ut quis est. Proin posuere orci eget vulputate
-                                fringilla. Curabitur placerat massa eget efficitur cursus. Sed
-                                sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                                eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis
-                                risus convallis in.</p>
-                            <p class="fn__desc">Quisque dui metus, eleifend at enim ac, imperdiet
-                                sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                                pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia congue,
-                                mauris magna tempus nibh, in mollis eros enim a tortor. Morbi enim arcu,
-                                tristique vitae mi nec, hendrerit pharetra metus. Phasellus id feugiat
-                                purus. In vel elit eu lacus ultrices feugiat. Etiam at aliquet mi. Nunc
-                                sit amet libero sit amet lectus pellentesque sagittis. Curabitur blandit
-                                ante quis erat dapibus viverra. Maecenas consequat pulvinar pulvinar.
-                                Donec in aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus, pulvinar
-                                ac mattis quis, pretium ac nulla. Morbi sed ligula ultrices, ornare
-                                mauris id, auctor arcu. Sed pellentesque ex sed erat faucibus, ultrices
-                                vehicula ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                                porttitor eu.</p>
-                            <p class="fn__desc">Sed porttitor augue erat, vitae convallis odio viverra
-                                id. In nec finibus elit. Nullam ac sodales nunc, vel sagittis elit. Ut
-                                condimentum ex ipsum, eu ornare odio aliquam eu. Ut iaculis eros quam,
-                                eu bibendum tellus convallis quis. Donec sapien risus, consequat ut
-                                magna nec, interdum porta nisl. Vivamus pulvinar hendrerit finibus. Nunc
-                                molestie lacinia risus, id mattis nunc euismod ac. Nam eu orci felis.
-                                Quisque ut elementum quam. Vivamus pulvinar nisi nunc, ut faucibus
-                                turpis tincidunt eget. Fusce nec ex quis odio laoreet consequat. Duis
-                                faucibus metus id feugiat sodales. Sed eu ligula eget quam ultricies
-                                tincidunt. Morbi sodales nunc ultrices justo pellentesque, ac mattis mi
-                                sagittis. Morbi ut consectetur neque.</p>
-                        </div>
-                    </div>
-                    <div class="item modal_item" data-index="22">
-                        <div class="img_holder">
-                            <img src="{{asset('img/empresas/WE.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/WE.png')}}"></div>
-                        </div>
-                        <div class="title_holder" align="center">
-                            {{-- <p>illustration, design</p> --}}
-                            <h3><a href="#">We Effect</a></h3>
-                        </div>
-                        <div class="fn__hidden">
-                            {{-- <p class="fn__cat">illustration, design</p> --}}
-                            <h3 class="fn__title">We Effect</h3>
-                            <div class="img_holder">
-                                <img src="{{asset('img/empresas/WE.png')}}" alt="">
-                            <div class="abs_img" data-bg-img="{{asset('img/empresas/WE.png')}}"></div>
                             </div>
                             <p class="fn__desc">Sed ornare tellus a odio bibendum, at tristique sapien
                                 malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu

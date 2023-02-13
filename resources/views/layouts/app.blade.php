@@ -206,7 +206,7 @@
 				<div class="right_bottom">
 					<a href="#portfolio">
 						<span class="circle"></span>
-						<span class="text">+40 Marcas y organizaciones
+						<span class="text">+40 Organizaciones y marcas
                             confian en nuestro trabajo</span>
 					</a>
 				</div>
