@@ -1,0 +1,614 @@
+/* =============================================
+       mobail device responsive start
+============================================= */
+@media only screen and (max-width: 1440px) {
+    .go-top {
+        bottom: 6%;
+        right: 1%;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    .project-iso-inner .text-box {
+        width: 190px;
+    }
+    .project-iso-inner .text-inner {
+        top: 65%;
+    }
+}
+@media only screen and (max-width: 1300px) {}
+@media only screen and (max-width: 1199px) {
+    .logo-inner {
+        padding: 28px 0 30px 10%;
+    }
+    .navigation-inner {
+        padding: 0 2% 0 0;
+    }
+    #header .top-header {
+        padding: 14px 2.4%;
+    }
+    .navigation .nav > li > a {
+        font-size: 18px;
+        padding: 30px 20px;
+    }
+    .blog-inner .text-box {
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .blog-inner .imnage-holder {
+        width: 50%;
+    }
+    .call-action2 p {
+        font-size: 22px;
+        padding: 7px 35px 7px 10px;
+    }
+    .foter-search input[type="text"] {
+        width: 190px;
+    }
+    .footer-socail ul li {
+        width: 22%;
+    }
+    .footer-socail ul li a {
+        width: 100% !important;
+    }
+    .footer-inner ul li a {
+        width: 88%;
+    }
+    .footer-twet .text-box {
+        width: 90%;
+    }
+    .about-image::after {
+        right: 25px;
+    }
+    .about-image::before {
+        right: 45px;
+    }
+    .comments-text {
+        width: 89%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navigation-inner {
+        padding: 0;
+    }
+    .logo-inner {
+        padding: 28px 0 30px 7%;
+    }
+    #header .top-header {
+        padding: 14px 1%;
+    }
+    .navigation .nav > li > a {
+        font-size: 14px;
+        padding: 30px 15px;
+    }
+    .sub-menu {
+        width: 160px;
+    }
+    #banner .banner-text p {
+        font-size: 14px;
+    }
+    .feature-boxis {
+        margin-top: 25px;
+    }
+    .featurs-items {
+        margin-top: 30px;
+    }
+    .sklii-left {
+        padding-right: 30px;
+    }
+    .project-iso .button {
+        padding: 0 7px;
+    }
+    .recrent-gallery .element-item {
+        width: 33.3%;
+    }
+    .team-inner {
+        padding-top: 30px;
+    }
+    .amazing-team {
+        margin-top: 25px;
+    }
+    .call-action .form-group input[type="text"] {
+        width: 270px;
+    }
+    .blog-inner{
+        margin-top: 30px;
+    }
+    .our-blog {
+        margin-top: 24px;
+    }
+    .call-action2 p {
+        font-size: 16px;
+        padding: 12px 35px 12px 10px;
+    }
+    .partner-logo-inner ul li {
+        margin-left: 9px;
+        margin-right: 9px;
+        width: 21%;
+    }
+    .footer-inner{
+        margin-top: 23px;
+    }
+    #footer {
+        padding: 43px 0 65px;
+    }
+    #copyright-footer {
+        text-align: center;
+    }
+    #copyright-footer ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .about-image {
+        margin-top: 15px;
+    }
+    .about-image::before {
+        right: 30%;
+    }
+    .about-image::after {
+        right: 28%;
+    }
+    .about-text {
+        margin-top: 65px;
+    }
+    .about-design {
+        margin-bottom: 0;
+        padding-bottom: 95px;
+    }
+    .aboout-feature {
+        margin: 0 !important;
+    }
+    .blog-contant .blog-inner{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .blog-contant {
+        margin-top: 20px !important;
+    }
+    .pagination-blog {
+        margin-top: 89px;
+    }
+    .blog-detail-right {
+        margin-top: 34px;
+    }
+    .contant-search input[type="submit"] {
+        top: 38px;
+    }
+    .contact-locat-innr{
+        margin-bottom: 30px;
+    }
+    .contact-loction {
+        padding-bottom: 90px;
+    }
+    .contact-comments {
+        margin: 13px auto 0;
+        width: 100%;
+    }
+    .contact-comments .form-group.clearfix {
+        display:  block;
+    }
+    .contact-comments .form-group input[type="text"], .contact-comments .form-group input[type="email"]{
+        width: 100%;
+    }
+    .go-top {
+        bottom: 127px;
+        right: 30px;
+    }
+    .inner-banner-text .bainner-abut h2{
+        font-size: 40px;
+    }
+    .inner-banner-text .breadcrumb {
+        margin: 20px 0 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navigation-inner {
+        padding: 23px 0;
+    }
+    .navigation-inner .navbar-toggle{
+        border: 1px solid transparent;
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+        border: 1px solid;
+        transition: all 0.5s ease-in-out;
+    }
+    .navigation-inner .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .top-header .socail-detail {
+        margin-right: 15px;
+    }
+    .top-header .socail-detail ul li a {
+        padding: 0 15px 0 10px;
+    }
+    .navigation .navbar-collapse {
+        background-color: #717171;
+        left: 0;
+        position: absolute;
+        top: 56px;
+        width: 100%;
+    }
+    .navigation-inner .navbar-nav {
+        margin: 29px 0 0;
+    }
+    .navigation .nav > li > a {
+        padding: 11px 15px;
+    }
+    .pull-right {
+        float: none !important;
+    }
+    .navigation .nav > li.current-menu-item {
+        transform: skewX(0deg);
+    }
+    .navigation .nav > li.current-menu-item a {
+        transform: skewX(0deg);
+    }
+    .navigation .nav > li:hover {
+        transform: skewX(0deg);
+    }
+    .navigation .nav > li:hover a {
+        transform: skewX(0deg);
+    }
+    .sub-menu {
+        background-color: #000;
+        bottom: 0;
+        display: none;
+        opacity: 1;
+        position: relative;
+        visibility: inherit;
+        width: 100% !important;
+    }
+    .navigation .nav > li:hover .sub-menu {
+        bottom: 0;
+        opacity: 1;
+        display: block;
+    }
+    #banner .banner-text h1 {
+        font-size: 40px;
+    }
+    #banner .banner-text p {
+        display: none;
+    }
+    .feature-boxis .text-box h3::after {
+        left: 47%;
+    }
+    .skil-progras::before {
+        display: none;
+    }
+    .skil-progras::after {
+        display: none;
+    }
+    .skil-progras {
+        padding: 50px 20px 1px;
+    }
+    .sklii-left {
+        margin-bottom: 25px;
+        margin-top: 31px;
+        padding-right: 0;
+    }
+    .skil-progras-rigth{
+        padding: 0;
+    }
+    .contant-hedings .hedding h2 {
+        letter-spacing: 0px;
+    }
+    .recrent-gallery .element-item {
+        width: 50%;
+    }
+    .team-inner .image-holder {
+        transform: skewX(-2deg);
+    }
+    .team-inner .text-box {
+        left: 9px;
+        transform: skewX(-2deg);
+    }
+    .call-action .form-group input[type="text"] {
+        width: 100%;
+        transform: skewX(0deg);
+    }
+    .call-action .submit::after {
+        display: none;
+    }
+    .call-action2 p {
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .call-action2 .btn::after {
+        display: none;
+    }
+    .call-action2 .btn {
+        display: block;
+        margin-left: 0;
+    }
+    .call-to-action {
+        padding: 41px 0 28px;
+    }
+    .call-to-action .form-group{
+        margin-bottom: 22px;
+    }
+    .about-image::after {
+        display: none;
+    }
+    .about-text {
+        margin-top: 54px;
+    }
+    .simmer-blog {
+        margin-left: 0;
+    }
+    .comments-text {
+        width: 85%;
+    }
+    .inner-banner-text .bainner-abut h2 {
+        font-size: 30px;
+    }
+    .inner-banner-text .breadcrumb {
+        margin: 12px 0 0;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .partner-logo-inner ul li {
+        width: 29%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .project-iso .button {
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .project-iso {
+        margin-bottom: 47px;
+    }
+    .inner-bainer {
+        height: 300px;
+    }
+    .inner-banner-text .breadcrumb {
+        margin: 6px 0 0;
+    }
+    .inner-comments .text-box {
+        padding: 10px;
+    }
+    .quote-detail p {
+        font-size: 18px;
+    }
+    .quote-detail {
+        padding: 22px 80px 26px;
+    }
+    .inner-banner-text .bainner-abut h2 {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .partner-logo-inner ul li {
+        width: 44%;
+    }
+    .about-image::before {
+        right: 22%;
+    }
+    .seond-next .previous-detail {
+        margin-right: 5px;
+    }
+    .previous-detail {
+        margin-left: 5px;
+    }
+    .seond-previous{
+        width: 100%;
+    }
+    .detail-contact .form-group input[type="text"]{
+        width: 100%;
+    }
+    .comments-text {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 479px) {
+    #header .top-header {
+        padding: 14px 0;
+    }
+    .top-header .socail-detail {
+        margin-right: 5px;
+    }
+    .top-header .socail-detail ul li a {
+        padding: 0 5px;
+    }
+    .socail-icon ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .top-header .socail-detail ul li a {
+        font-size: 12px;
+    }
+    #banner .banner-text h1 {
+        font-size: 36px;
+        padding-bottom: 0;
+    }
+    #banner .banner-text .btn{
+        display: none;
+    }
+    #banner .banner-text .get-start{
+        display: none;
+    }
+    #banner .owl-theme .owl-controls {
+        display: none !important;
+    }
+    .section-padding {
+        padding: 39px 0 50px;
+    }
+    .sklii-left h2{
+        font-size: 30px;
+    }
+    .sklii-left {
+        margin-top: 38px;
+    }
+    .contant-hedings .hedding h2 {
+        letter-spacing: 0px;
+        font-size: 30px;
+    }
+    .isotop-gllary {
+        padding-bottom: 0 !important;
+    }
+    .project-iso {
+        margin-bottom: 17px;
+    }
+    .recrent-gallery .element-item {
+        width: 100%;
+    }
+    .call-action h2 {
+        font-size: 20px;
+    }
+    .blog-inner .imnage-holder {
+        float: none;
+        width: inherit;
+    }
+    .blog-inner .text-box {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .call-to-action2 {
+        padding: 50px 0;
+    }
+    #footer {
+        padding: 25px 0 49px;
+    }
+    .about-design .about-text h3 {
+        font-size: 24px;
+    }
+    .about-image::before {
+        display: none;
+    }
+    .about-text {
+        margin-top: 46px;
+    }
+    .about-design {
+        padding-bottom: 45px;
+    }
+    .bottom-space {
+        padding-bottom: 0 !important;
+    }
+    .bainner-abut{
+        width: 100%;
+        text-align: center;
+    }
+    .bainner-breadcrumb{
+        width: 100%;
+        text-align: center;
+    }
+    .inner-banner-text .breadcrumb {
+        margin: 6px 0 20px;
+        text-align: center;
+    }
+    .blog-contant {
+        margin-top: 11px !important;
+    }
+    .pagination-blog {
+        margin-top: 21px;
+    }
+    .pagination-blog ul li a {
+        padding: 7px 15px;
+    }
+    .inner-comments .text-box {
+        padding: 10px;
+        width: 82%;
+    }
+    .description-socail {
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .description-tags {
+        display: block;
+        float: none;
+        margin-top: 26px;
+        text-align: center;
+    }
+    .quote-detail::before{
+        display: none;
+    }
+    .quote-detail::after{
+        display: none;
+    }
+    .quote-detail {
+        padding: 20px 0;
+    }
+    #blog-detail-owl .bainer-text{
+        display: none;
+    }
+    .contact-loction {
+        margin-top: 12px;
+        padding-bottom: 20px !important;
+    }
+    .contact-comments {
+        margin: 5px auto 0;
+    }
+    .gallery-work {
+        margin: 5px 0 0;
+    }
+    .go-top {
+        display: none;
+    }
+    .comments-text {
+        width: 78%;
+    }
+}
+@media only screen and (max-width: 379px) {
+    #header .top-header {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .top-header .socail-detail {
+        display: block;
+        margin-right: 0;
+    }
+    .socail-icon {
+        display: block;
+        margin-top: 10px;
+    }
+    .top-header .socail-detail ul li a {
+        padding: 0 10px 0 5px;
+    }
+    #banner .banner-text h1 {
+        font-size: 26px;
+    }
+    .team-inner .text-box {
+        top: 18px;
+        width: 88%
+    }
+    .partner-logo-inner ul li {
+        width: 50%;
+        margin: 0;
+    }
+    .partner-logo-inner {
+        text-align: center;
+    }
+    .foter-search input[type="text"] {
+        width: 185px;
+    }
+    .team-inner .image-holder {
+        transform: skewX(0deg);
+    }
+    .team-inner .text-box {
+        left: 6px;
+        transform: skewX(0deg);
+    }
+    .team-inner .image-holder img {
+        transform: skewX(0deg);
+    }
+    .inner-comments .text-box h3 {
+        display: block;
+    }
+    .inner-comments .text-box span {
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .inner-comments .text-box p {
+        font-size: 12px;
+    }
+    .comments-text {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 320px) {}

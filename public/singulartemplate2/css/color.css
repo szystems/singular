@@ -1,0 +1,89 @@
+/*=============================================
+                    Theme text Color
+=============================================*/
+.top-header .socail-detail ul li a:hover,
+.socail-icon ul li a:hover i,
+#banner .banner-text h1,
+#banner .owl-theme .owl-controls .owl-buttons div,
+.feature-boxis .image-holder i,
+.feature-boxis:hover h3,
+.sklii-left h2,
+.project-iso .button.is-checked,
+.blog-inner .text-box a,
+.footer-inner ul li a:hover,
+.footer-inner ul li i,
+.footer-twet .image-holder,
+.footer-twet .text-box a,
+.footer-socail ul li a:hover i,
+#copyright-footer ul li a:hover,
+.project-iso .button:hover,
+.inner-banner-text h2,
+.inner-banner-text .breadcrumb li a:hover,
+.breadcrumb > .active,
+.about-design .about-text h3 span,
+.contact-locat-innr .image-holder i,
+.contact-locat-innr .text-box h4,
+.contact-locat-innr .text-box  p a:hover,
+.seond-previous a:hover i,
+.seond-previous a:hover h3,
+.description-socail ul li a:hover,
+.quote-detail strong,
+.relail-post .text-box h4 a:hover,
+.latest-coment-second .text-box a,
+.blog-inner .text-box h3 a:hover,
+.related-post .text-box h4 a:hover,
+.contant-search input[type="submit"]:hover,
+.detail-category ul li:hover p a{
+    color: #ff7200;
+}
+/*=============================================
+        Theme Background Color
+=============================================*/
+.logo-inner,
+.navigation .nav > li.current-menu-item,
+.navigation .nav > li:hover,
+.btn,
+.get-start:hover,
+#banner .owl-prev:after,
+#banner .owl-next:after,
+.contant-hedings .hedding span,
+.skil-progras,
+.skil-progras:after,
+.skil-progras:before,
+.partner-logo-inner ul li a:hover,
+#footer:after,
+.footer-inner h3:after,
+.foter-search .btn:hover,
+.about-image:after,
+.date-blog p,
+.pagination-blog ul li:first-child,
+.pagination-blog ul li:last-child,
+.pagination-blog ul li a:hover,
+.bainer-text ul li,
+.description-tags ul li:hover,
+.inner-comments .comments-reply:hover,
+.detail-contact .form-group input[type="submit"]:hover,
+.sub-menu ul li a:hover,
+.call-action .submit:hover .btn,
+.navigation-inner .navbar-toggle,
+.go-top a,
+.sk-folding-cube .sk-cube:before
+{
+    background-color: #ff7200;
+}
+/*=============================================
+        Theme border Color
+=============================================*/
+.feature-boxis:hover .image-holder,
+.team-inner .image-holder,
+.team-inner .text-box,
+.about-image:before,
+.contact-locat-innr .image-holder,
+.contact-comments .form-group input[type="text"],
+.contact-comments .form-group input[type="email"],
+.contact-comments .form-group textarea,
+.description-tags ul li:hover,
+.detail-category ul li span,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+     border-color: #ff7200;
+}
